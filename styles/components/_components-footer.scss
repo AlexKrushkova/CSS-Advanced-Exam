@@ -1,0 +1,82 @@
+.c-footer{
+    height: 312px;
+    background-color: $grey-700;
+    .o-page-content-wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1.5fr 1fr 1fr 1.2fr;
+        justify-content: center;
+        justify-items: space-between;
+        align-items: center;
+        
+    }
+
+    &-huge-image{
+        position: relative;
+        :hover{
+            transition: transform 3s;
+            animation: rotate 4s ease-in-out;
+        }
+      
+           &-img{
+            position: absolute;
+            bottom: -168px;
+
+            
+        }
+     }
+
+     h5{
+        color: white;
+        margin-bottom: 16px;
+     }
+
+    &-ul__softuni-kids{
+             align-self: center;
+             padding-top: 26px;
+             display: grid;
+             grid-template-columns: auto;
+             grid-template-columns: 1fr 1fr;
+             grid-template-rows: 30px 30px 30px 30px 30px 30px;
+             grid-auto-flow: column;  
+             justify-items: start;
+             justify-content: start;
+             justify-items: space-between;
+             align-items: end;
+
+             &-padding-first{
+                 grid-row-start: 2;
+             }
+             &-padding-second{
+                 grid-row-start: 3;
+             }
+
+            
+    }
+
+    &-ul__all-studies{
+        align-self: start;
+    }
+
+    &-ul__all-iniciatives{
+        align-self: start;
+    }
+
+    &-ul__where-to-finds-us{
+        align-self: start;
+
+
+        display: grid;
+        grid-gap: 10px;
+
+        &-icons{
+            display: grid;
+            grid-template-columns: 70px 70px;
+            cursor: pointer;
+        }
+        &-copy-rights{
+            margin-top: 10px;
+        }
+        
+    }
+    
+}

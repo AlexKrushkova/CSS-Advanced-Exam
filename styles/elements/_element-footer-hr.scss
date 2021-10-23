@@ -1,0 +1,15 @@
+@import '../settings/_settings-colors';
+
+hr{
+    height: 12px;
+    margin: 0;
+}
+
+.hr--gray{
+    margin-bottom: 20px;
+    background-color: $grey-500;
+}
+
+.hr--blue{
+    background-color: $blue-200;
+}
